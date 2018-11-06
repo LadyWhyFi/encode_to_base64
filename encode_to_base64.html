@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<header></header>
+<body>
+<form action="/cgi-bin/encode_to_base64.cgi" method="post">
+What is your name? <input type="text" name="name"></input><br>
+What is your title?<br>
+<input type="radio" name="title" value="Mr.">Mr.</input><br>
+<input type="radio" name="title" value="Mrs.">Mrs.</input><br>
+<input type="radio" name="title" value="Miss">Miss</input><br><br>
+Please provide the text you want to encode into Base64 format:<br><br><hr>
+<textarea name="to_be_encoded_text"></textarea><br><br>
+<input type="submit" name="submit" value="Submit"></input>
+</form>
+</html>
